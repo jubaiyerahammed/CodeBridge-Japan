@@ -1,4 +1,4 @@
-rendom=1224353
+rendom=int(input('enetr you number:'))
 
 remainder = rendom % 9
 if remainder==0:
@@ -9,7 +9,7 @@ else:
     print('The number is not divisible by 9 ')
     print('Nooo')
     print('We didnot it')
-    
+
         
 
 
