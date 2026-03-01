@@ -32,11 +32,11 @@ def check_divisible(divisible_value):
 
     remainder = rendom % divisible_value
     if remainder==0:
-        print("The number is divisible by divisible_value")
+        print("The number is divisible by", divisible_value)
         print("yes")
         print('We did it')
     else:
-        print('The number is not divisible by divisible_value ')
+        print('The number is not divisible by', divisible_value )
         print('Nooo')
         print('We didnot it')
             
