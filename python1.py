@@ -26,17 +26,17 @@ else:
     print('Nooo')
     print('We didnot it')
 
-def check_divisible(divisible_value):
+def check_divisible(divident_value):
     rendom_number=input('enetr you number:')
     rendom_number=int(rendom_number)
 
-    remainder = rendom % divisible_value
+    remainder = rendom % divident_value
     if remainder==0:
-        print("The number is divisible by", divisible_value)
+        print("The number is divisible by", divident_value)
         print("yes")
         print('We did it')
     else:
-        print('The number is not divisible by', divisible_value )
+        print('The number is not divisible by', divident_value )
         print('Nooo')
         print('We didnot it')
             
