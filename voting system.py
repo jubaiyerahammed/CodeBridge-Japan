@@ -37,6 +37,10 @@ if not is_input_valid:
 #check eligibility:
 if gender == 'male' and age>=20:
     print('allowed to vote')
+elif gender=='female' and age >=18:
+    print('allowed to vote')
+else:
+    print('not allowed to vote')
 
 
 
