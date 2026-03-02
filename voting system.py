@@ -16,12 +16,14 @@ but the country has a role, the females will be able to vote if they are 18 year
         not eligibile    
 """
 #take input:
-age=int('input(your age:'))
+age=int(input('your age:'))
 gender=input('your gender(male/female):')
 
 #data validation:input validation
 
 is_input_valid=True #1️⃣ Validation flag
+#শুরুতে ধরা হচ্ছে সব input ঠিক আছে ✅
+#যদি কোনো ভুল পাওয়া যায় → এটাকে False করা হবে ❌
 
 if gender !='male' and gender !='female':  #if gender != 'male' and gender != 'female':
     print('invalid gender')
