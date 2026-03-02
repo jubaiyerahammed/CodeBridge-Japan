@@ -20,12 +20,18 @@ age=int('input(your age:'))
 gender=input('your gender(male/female):')
 
 #data validation:input validation
+is_input_valid=True
 if gender !='male' or gender !='female':
     print('invalid gender')
-    exit
+    is_input_valid=False
+
 if age < 0 or age>120:
     print('invalid age')
-    exit
+    is_input_valid=False
+
+if not is_input_valid:
+    exit()
+   
 #check eligibility:
 if gender == 'male' and age>=20:
     print('allowed to vote')
