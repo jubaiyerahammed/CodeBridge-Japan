@@ -20,8 +20,10 @@ age=int('input(your age:'))
 gender=input('your gender(male/female):')
 
 #data validation:input validation
-is_input_valid=True
-if gender !='male' or gender !='female':
+
+is_input_valid=True #1️⃣ Validation flag
+
+if gender !='male' or gender !='female':  #if gender != 'male' and gender != 'female':
     print('invalid gender')
     is_input_valid=False
 
