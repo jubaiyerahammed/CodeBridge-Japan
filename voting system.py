@@ -23,7 +23,7 @@ gender=input('your gender(male/female):')
 
 is_input_valid=True #1️⃣ Validation flag
 
-if gender !='male' or gender !='female':  #if gender != 'male' and gender != 'female':
+if gender !='male' and gender !='female':  #if gender != 'male' and gender != 'female':
     print('invalid gender')
     is_input_valid=False
 
